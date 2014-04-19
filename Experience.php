@@ -11,7 +11,7 @@
        </div>
        <div class="col-lg-12 text-center">
 
-           <h3>Under Construction</h3>
+           <h4>Under Construction</h4>
        </div>
    </div>
 </div>

@@ -12,6 +12,12 @@ h1, h2, h3, h6 {
   font-weight: 400;
 }
 
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
 h4 {
    letter-spacing: 3px;
    font-weight: 400;
@@ -38,6 +44,23 @@ p {
 hr {
   border-color: #999999;
   max-width: 500px;
+}
+
+textarea {
+
+}
+
+
+.right
+{
+   text-align: right;
+   /*float: right;*/
+}
+
+.center
+{
+   text-align: center;
+   /*padding-left: 20%*/
 }
 
 .brand,
