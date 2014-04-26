@@ -17,10 +17,8 @@
 </head>
 
 <body>
-
-    <!-- <div class="brand">Business Casual</div> -->
     <div class="brand">
-       <img class="img-half" src="img/dickinEngg.png">
+       <img class="img-half" src="img/dickinEnggLogo.png">
     </div>
     <div class="address-bar"> Dickin Engineering Inc. | Red Deer, Alberta </div>
 
@@ -40,7 +38,7 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="EngineeringServices.php">Engineering Services</a></li>
+                    <!-- <li><a href="EngineeringServices.php">Engineering Services</a></li> -->
                     <li><a href="Customers.php">Customers</a></li>
                     <li><a href="Experience.php">Experience</a></li>
                     <li><a href="Publications.php">Publications</a></li>

@@ -1,19 +1,19 @@
 <?php
    include 'header.php';
 ?>
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12 text-center">
-                    <div id="carousel-example-generic" class="carousel slide">
+        <!-- <div class="row"> -->
+            <!-- <div class="box"> -->
+                <!-- <div class="col-lg-12 text-center"> -->
+                    <!-- <div id="carousel-example-generic" class="carousel slide"> -->
                         <!-- Indicators -->
-                        <ol class="carousel-indicators hidden-xs">
+<!--                         <ol class="carousel-indicators hidden-xs">
                             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        </ol>
+                        </ol> -->
 
                         <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
+<!--                         <div class="carousel-inner">
                             <div class="item active">
                                 <img class="img-responsive img-full" src="img/slide-1.jpg">
                             </div>
@@ -23,45 +23,60 @@
                             <div class="item">
                                 <img class="img-responsive img-full" src="img/slide-3.jpg">
                             </div>
-                        </div>
+                        </div> -->
 
                         <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+<!--                         <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
                             <span class="icon-prev"></span>
                         </a>
                         <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
                             <span class="icon-next"></span>
                         </a>
-                    </div>
-                    <h1>
-                        <small>Welcome to</small>
-                        <br>
-                        <span class="brand-name">Dickin Engineering</span>
-                        <hr class="tagline-divider">
-                        <!-- <small>By <strong>Start Bootstrap</strong> -->
-                        </small>
-                    </h1>
-                </div>
-            </div>
-        </div>
+                    </div> -->
+                    <!-- <h1> -->
+                        <!-- <small>Welcome to</small> -->
+                        <!-- <br> -->
+                        <!-- <span class="brand-name">Dickin Engineering</span> -->
+                        <!-- <hr class="tagline-divider"> -->
+                        <!-- </small> -->
+                    <!-- </h1> -->
+                <!-- </div> -->
+            <!-- </div> -->
+        <!-- </div> -->
 
         <div class="row">
             <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Build a website <strong>worth visiting</strong>
-                    </h2>
-                    <hr>
-                    <img class="img-responsive img-border img-left" src="img/intro-pic.jpg">
-                    <hr class="visible-xs">
-                    <p>The boxes used in this template are nested inbetween a normal Bootstrap row and the start of your column layout. The boxes will be full-width boxes, so if you want to make them smaller then you will need to customize.</p>
-                    <p>A huge thanks to <a href="http://join.deathtothestockphoto.com/" target="_blank">Death to the Stock Photo</a> for allowing us to use the beautiful photos that make this template really come to life. When using this template, make sure your photos are decent. Also make sure that the file size on your photos is kept to a minumum to keep load times to a minimum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                </div>
+      <div class="col-lg-12">
+           <hr>
+           <h2 class="intro-text text-center"><strong>Engineering Services</strong></h2>
+           <hr>
+       </div>
+       <div class="col-lg-12 text-center">
+
+           <h4>Dickin Engineering Inc. offers specialized consulting services to industrial customers within Western Canada.</h4>
+           <h5>Services include:</h5>
+
+           <ul class="unordered-list">
+               <li>Owner’s Engineer Services</li>
+               <li>Industrial Facility Interconnection Design with Utility and/or Generation </li>
+               <li>Industrial Facility Power System Design</li>
+               <li>Hazardous Location Area Classification, Class I and Class II </li>
+               <li>Power System Studies using ETAP:
+                  <ul>
+                     <li>Load Flow, Short Circuit, Motor Starting, Protective Relay Coordination, and Arc Flash</li>
+                  </ul>
+               </li>
+               <li>Incident investigations and repair/re-energization engineering </li>
+               <li>Specification and design standard Technical Writing</li>
+               <li>Electrical safety program and practice development support and services</li>
+               <li>Utility power contract negotiation</li>
+               <li>Project coordination</li>
+           </ul>
+       </div>
             </div>
         </div>
 
-        <div class="row">
+<!--         <div class="row">
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
@@ -72,7 +87,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 <?php
    include 'footer.php';

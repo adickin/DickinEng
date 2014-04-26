@@ -11,7 +11,7 @@
        </div>
        <div class="col-lg-12 text-center">
 
-           <h4>Dickin Engineering Inc. offers specialized consulting services to industrial customers.</h4>
+           <h4>Dickin Engineering Inc. offers specialized consulting services to industrial customers within Western Canada.</h4>
            <h5>Services include:</h5>
 
            <ul class="unordered-list">
@@ -37,21 +37,3 @@
 <?php
    include 'footer.php';
 ?>
-
-
-<!-- Dickin Engineering Inc. offers specialized consulting services to industrial customers.  Services include:
-Owner’s Engineer Services
-Industrial Facility Interconnection Design with Utility and/or Generation 
-Industrial Facility Power System Design
-Hazardous Location Area Classification, Class I and Class II 
-Power System Studies using ETAP:  
-Load Flow, 
-Short Circuit, 
-Motor Starting, 
-Protective Relay Coordination, and 
-Arc Flash
-Incident investigations and repair/re-energization engineering 
-Specification and design standard Technical Writing
-Electrical safety program and practice development support and services
-Utility power contract negotiation
-Project coordination -->
