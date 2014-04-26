@@ -66,7 +66,7 @@
             <br></br>
             <textarea class="textarea" onfocus="focusTest(this); return false" cols="100%" rows="15" maxlength="255" name="mailContent">Content...</textarea>
             <br></br>
-            <img class="img-half" src="img/capcha.png">
+            <img class="img-half" src="img/capcha.jpg">
             <br></br>
             <textarea cols="40" rows="1" onfocus="focusTest(this); return false" name="captchaContent">Enter Text From Picture</textarea>
                <input type="SUBMIT" class="style19" name="sendEmail" value="Send Email">
