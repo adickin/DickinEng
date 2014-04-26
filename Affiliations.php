@@ -9,7 +9,7 @@
             <h2 class="intro-text text-center"><strong>Affiliations</strong></h2>
          <hr>
       </div>
-      <div class="col-lg-12 text-center">
+      <div class="col-lg-11 text-center">
          <h5>Professional</h5>
          <ul class="unordered-list">
             <li>Association of Professional Engineers Geo-scientists of Alberta</li>

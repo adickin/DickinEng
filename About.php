@@ -61,7 +61,7 @@
            <h2 class="intro-text text-center"><strong>Contact</strong></h2>
            <hr>
          <div class="">
-            <form method="POST" action='about.php'>
+            <form method="POST" action='About.php'>
             <textarea class="textarea" onfocus="focusTest(this); return false" cols="100%" rows="1" maxlength="50" name="mailSubject">Subject...</textarea>
             <br></br>
             <textarea class="textarea" onfocus="focusTest(this); return false" cols="100%" rows="15" maxlength="255" name="mailContent">Content...</textarea>
@@ -71,7 +71,6 @@
             <textarea cols="40" rows="1" onfocus="focusTest(this); return false" name="captchaContent">Enter Text From Picture</textarea>
                <input type="SUBMIT" class="style19" name="sendEmail" value="Send Email">
             </form>
-            <!-- <button name="sendEmail" type="button">Send Message</button> -->
          </div>
       </div>
    </div>
