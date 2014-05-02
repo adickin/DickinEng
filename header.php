@@ -31,14 +31,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">Business Casual</a>
+                <a class="navbar-brand" href="index.php">Dickin Engineering</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="index.php">Home</a></li>
-                    <!-- <li><a href="EngineeringServices.php">Engineering Services</a></li> -->
                     <li><a href="Customers.php">Customers</a></li>
                     <li><a href="Experience.php">Experience</a></li>
                     <li><a href="Publications.php">Publications</a></li>

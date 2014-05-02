@@ -24,7 +24,10 @@
 
       if($captcha == "overlooks inquiry")
       {
-         $isSent = mail("adamdickin@gmail.com", $mailSubject, $mailContent);
+         $headers = 'From: adamdickin@gmail.com' . "\r\n" .
+         'Reply-To: adamdickin@gmail.com' . "\r\n" .
+         'X-Mailer: PHP/' . phpversion();
+         $isSent = mail("adamdickin@gmail.com", $mailSubject, $mailContent, $headers);
          if($isSent == 1)
          {
             echo "Sent email";
@@ -36,7 +39,7 @@
 
 <div class="row">
    <div class="box">
-       <div class="col-lg-12">
+       <div class="col-lg-8" style="float: none; margin: 0 auto;">
            <hr>
            <h2 class="intro-text text-center"><strong>About</strong></h2>
            <hr>
@@ -57,10 +60,10 @@
 <div class="row">
    <div class="box">
       <div class="col-lg-12">
-            <hr>
-           <h2 class="intro-text text-center"><strong>Contact</strong></h2>
-           <hr>
-         <div class="">
+         <hr>
+         <h2 class="intro-text text-center" ><strong>Contact</strong></h2>
+         <hr>
+         <div class="col-lg-8" style="float: none; margin: 0 auto;">
             <form method="POST" action='About.php'>
             <textarea class="textarea" onfocus="focusTest(this); return false" cols="100%" rows="1" maxlength="50" name="mailSubject">Subject...</textarea>
             <br></br>
