@@ -63,18 +63,8 @@
          <hr>
          <h2 class="intro-text text-center" ><strong>Contact</strong></h2>
          <hr>
-         <div class="col-lg-8" style="float: none; margin: 0 auto;">
-            <form method="POST" action='About.php'>
-            <textarea class="textarea" onfocus="focusTest(this); return false" cols="100%" rows="1" maxlength="50" name="mailSubject">Subject...</textarea>
-            <br></br>
-            <textarea class="textarea" onfocus="focusTest(this); return false" cols="100%" rows="15" maxlength="255" name="mailContent">Content...</textarea>
-            <br></br>
-            <img class="img-half" src="img/capcha.jpg">
-            <br></br>
-            <textarea cols="40" rows="1" onfocus="focusTest(this); return false" name="captchaContent">Enter Text From Picture</textarea>
-               <input type="SUBMIT" class="style19" name="sendEmail" value="Send Email">
-            </form>
-         </div>
+           <img class="img-responsive img-border img-center" src="img/businessCardNoAddress.png">
+
       </div>
    </div>
 </div>
